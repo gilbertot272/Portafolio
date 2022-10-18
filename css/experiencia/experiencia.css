@@ -1,0 +1,126 @@
+.experiencia{
+    position: relative;
+    text-align: center;
+    top: 450px;
+    width: 80%;
+    height: 410px;
+}
+.cajas__experiencia{
+    display: flex;
+    justify-content: center;
+}
+.a1{
+    width: 752px;
+    height: 406px;
+    background: url('../../imagen/encriptador.png')center no-repeat;
+    background-size: contain;
+}
+#titulo__exp{
+    position: relative;
+    padding: 10px;
+    top: 130px;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: left;
+    left: 72px;
+}
+.a2{
+    width: 370px;
+    height: 400px;
+}
+
+.btnexp{
+    position: relative;
+    background: #ffffff;
+    color: #2A7AE4;
+    border-color:  #2A7AE4;
+    top: 150px;
+    margin: 5px;
+    width: 94px;
+    height: 40px;
+    font-size: 16px;
+
+}
+
+.b2{
+    background-color: #2A7AE4;
+    color: #ffffff;
+    border: none;
+}
+
+/*PANTALLA DE ESCRITORIO*/
+@media (min-width:1200px){
+    
+}
+
+/*PANTALLA DE LAPTOP*/
+@media (max-width: 1199px) and (min-width:992px){
+ 
+}
+
+/*PANTALLA DE TABLETA*/
+@media  (max-width: 991px) and (min-width:768px){
+
+}
+
+/*PANTALLA SMALL XS*/
+
+@media (max-width: 767px){
+
+    .experiencia{
+        width: 100%;
+        position: relative;
+        text-align: center;
+        top: 200px;
+        height: 400px;
+    }
+    .cajas__experiencia{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 70%;
+    }
+    .a1{
+        width: 200px;
+        height: 200px;
+        background: url('../../imagen/encriptador.png')center no-repeat;
+        background-size: cover;
+    }
+    #titulo__exp{
+        position: relative;
+        padding: 10px;
+        top: 230px;
+        font-weight: 700;
+        font-size: 20px;
+        text-align: left;
+        left: 72px;
+    }
+    .a2{
+        width: 60%;
+        box-sizing: border-box;
+        height: 400px;
+    }
+    
+    .btnexp{
+        position: relative;
+        background: #ffffff;
+        color: #2A7AE4;
+        border-color:  #2A7AE4;
+        top: 150px;
+        margin: 5px;
+        width: 94px;
+        height: 40px;
+        font-size: 16px;
+    
+    }
+    
+    .b2{
+        background-color: #2A7AE4;
+        color: #ffffff;
+        border: none;
+    }
+
+ 
+    
+}
