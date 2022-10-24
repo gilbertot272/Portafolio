@@ -95,7 +95,8 @@
     
     .hobbies__cajatxt{
         position: relative;
-        top: 150px;
+        text-transform: uppercase;
+        top: 130px;
         left: 10px;
         font-size: 1rem;
         font-weight: 700;

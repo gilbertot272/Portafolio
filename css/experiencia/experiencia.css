@@ -1,51 +1,65 @@
 .experiencia{
     position: relative;
-    text-align: center;
-    top: 450px;
-    width: 80%;
-    height: 410px;
-}
-.cajas__experiencia{
-    display: flex;
-    justify-content: center;
-}
-.a1{
-    width: 752px;
-    height: 406px;
-    background: url('../../imagen/encriptador.png')center no-repeat;
-    background-size: contain;
-}
-#titulo__exp{
-    position: relative;
-    padding: 10px;
-    top: 130px;
-    font-weight: 700;
-    font-size: 20px;
-    text-align: left;
-    left: 72px;
-}
-.a2{
-    width: 370px;
+    top: 480px;
+   
     height: 400px;
 }
 
-.btnexp{
+#experiencia__titulo{
     position: relative;
-    background: #ffffff;
-    color: #2A7AE4;
-    border-color:  #2A7AE4;
-    top: 150px;
-    margin: 5px;
-    width: 94px;
-    height: 40px;
-    font-size: 16px;
-
+    top: 10px;
+    text-align: center;
+    
 }
 
+.cajas__experiencia{
+    position: relative;
+    padding: 0 40px 0 40px;
+    display: flex;
+    justify-content: space-around;
+   
+    top: 50px;
+}
+
+.a1{
+    width: 700px;
+    background: url(../../imagen/m.png)center no-repeat;
+    background-size: contain;
+}
+.a2{
+    width:  500px;
+
+}
+#titulo__exp{
+    position: relative;
+    top: 90px;
+    left: 40px;
+}
+
+.btnexp{
+    background: #F5F5F5;
+    color: #2A7AE4;
+    border: solid #2A7AE4;
+    position: relative;
+    display: inline-block;
+    left: 40px;
+    height: 50px;
+    width: 100px;
+    
+    top: 110px;
+}
 .b2{
-    background-color: #2A7AE4;
+    background: #F5F5F5;
     color: #ffffff;
-    border: none;
+    background-color:  #2A7AE4;
+    position: relative;
+    display: inline-block;
+    left: 50px;
+    height: 50px;
+    width: 100px;
+    
+    top: 110px;
+
 }
 
 /*PANTALLA DE ESCRITORIO*/
@@ -68,59 +82,72 @@
 @media (max-width: 767px){
 
     .experiencia{
-        width: 100%;
         position: relative;
-        text-align: center;
-        top: 200px;
+        top: 100px;
         height: 400px;
     }
-    .cajas__experiencia{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
-        width: 70%;
+    
+    #experiencia__titulo{
+        position: relative;
+        top: 10px;
+        text-align: center;
     }
+    
+    .cajas__experiencia{
+        position: relative;
+        padding: 0 40px 0 40px;
+        display: flex;
+    
+        flex-wrap: wrap;
+        justify-content: space-between;
+        top: 50px;
+    }
+    
     .a1{
-        width: 200px;
-        height: 200px;
-        background: url('../../imagen/encriptador.png')center no-repeat;
-        background-size: cover;
+        position: relative;
+        bottom: 100px;
+        width: 100%;
+        background: url(../../imagen/m.png)center no-repeat;
+        background-size: contain;
+    }
+    .a2{
+        position: relative;
+        bottom: 250px;
+        width: 100%;
+        background-color: #00000000;
+    
     }
     #titulo__exp{
         position: relative;
-        padding: 10px;
-        top: 230px;
-        font-weight: 700;
-        font-size: 20px;
-        text-align: left;
-        left: 72px;
-    }
-    .a2{
-        width: 60%;
-        box-sizing: border-box;
-        height: 400px;
+        top: 90px;
+        left: 10px;
     }
     
     .btnexp{
-        position: relative;
-        background: #ffffff;
+        background: #F5F5F5;
         color: #2A7AE4;
-        border-color:  #2A7AE4;
-        top: 150px;
-        margin: 5px;
-        width: 94px;
-        height: 40px;
-        font-size: 16px;
-    
+        border: solid #2A7AE4;
+        position: relative;
+        display: inline-block;
+        left: 10px;
+        height: 50px;
+        width: 100px;
+        top: 110px;
     }
-    
     .b2{
-        background-color: #2A7AE4;
+        background: #F5F5F5;
         color: #ffffff;
-        border: none;
+        background-color:  #2A7AE4;
+        position: relative;
+        display: inline-block;
+        left: 20px;
+        height: 50px;
+        width: 100px;
+        
+        top: 110px;
+    
     }
-
+    
  
     
 }
