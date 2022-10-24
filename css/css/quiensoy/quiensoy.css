@@ -1,0 +1,142 @@
+.quiensoy{
+    display: flex;
+    height: 122px;
+    width: 90%;
+}
+
+.quiensoy__des--titulo{
+    position: relative;
+    top: 60px;
+    font-size: 42px;
+    font-weight: 600;
+    left: 80px;    
+}
+.quiensoy__des--parrafo{
+    position: relative;
+    top: 70px;
+    font-size: 20px;
+    font-weight: 400;
+    left: 80px;
+    line-height: 1.5;   
+}
+
+.quiensoy__menu{
+    position: relative;
+    top: 80px;
+    left: 70px;
+}
+
+.quiensoy__item{
+    display: inline;
+    
+}
+.quiensoy__link{
+    text-decoration: none;
+    padding: 10px;
+    color: #464646;
+}
+.quiensoy__img{
+    width: 500px;
+    height: 500px;  
+}
+.quiensoy__img--alan{
+    background: url('../../imagen/Alan.jpg') center no-repeat ;
+    background-size: cover;
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 120px;
+    top: 50px;
+}
+
+
+
+/*PANTALLA DE ESCRITORIO*/
+@media (min-width:1200px){
+    
+}
+
+/*PANTALLA DE LAPTOP*/
+@media (max-width: 1199px) and (min-width:992px){
+ 
+}
+
+/*PANTALLA DE TABLETA*/
+@media  (max-width: 991px) and (min-width:768px){
+
+}
+
+/*PANTALLA SMALL XS*/
+
+@media  (max-width: 767px){
+    .quiensoy{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 600px;
+    }
+    
+    .quiensoy__des--titulo{
+        left: 100px;
+        text-align: justify;
+        width: 300px;
+        top:270px;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    .quiensoy__des--parrafo{
+        position: relative;
+        width: 300px;
+        text-align: justify;
+        top: 280px;
+        font-size: 1rem;
+        font-weight: 400;
+        left: 100px;
+        line-height: 1.5;   
+    }
+    
+    .quiensoy__menu{
+        position: relative;
+        top: 300px;
+        font-size: 1rem;
+        left: 100px;
+        width: 300px;
+    }
+    
+    .quiensoy__item{
+        display: block;
+        margin-bottom: 10px;  
+    }
+    .quiensoy__link{
+        text-decoration: none;
+        padding: 0px;
+        margin: 5px;
+        
+        color: #464646;
+    }
+    .quiensoy__img{
+        width: 300px;
+        
+        position: relative;
+        right: 270px;
+       
+        bottom: 10px;
+        width: 200px;
+        height: 200px;  
+    }
+    .quiensoy__img--alan{
+        background: url('../../imagen/Alan.jpg') center no-repeat ;
+        
+        background-size: cover;
+        border-radius: 100%;
+        width: 200px;
+        height: 200px;
+        position: relative;
+    
+    }
+   
+
+}
+
+

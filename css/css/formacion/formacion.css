@@ -1,0 +1,174 @@
+.formacion{
+    text-align: center;
+    position: relative;
+    top: 420px;
+    background: #EAF2FD;
+    width: 100%;
+    height: 400px;
+}
+
+#formacion__titulo{
+    position: relative;
+    top: 20px;
+}
+
+.cajas{
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   position: relative;
+   top: 40px;
+}
+
+.caja{
+    width: 368px;
+    height: 286px;
+    margin: 5px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+}
+
+.c1{
+    background: #FFFFFF;
+    
+}
+
+.formacion__escuela{
+    position: relative;
+    top: 240px;
+}
+
+.imagen--ittla{
+    background: url(../../imagen/tec.png) center no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    position: relative;
+    top: 20%;
+}
+
+.imagen--one{
+    background: url(../../imagen/one.jpg) center no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    position: relative;
+    top: 20%;
+}
+.imagen--goo{
+    background: url(../../imagen/gle.png) center no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    position: relative;
+    top: 20%;
+}
+
+/*PANTALLA DE ESCRITORIO*/
+@media (min-width:1200px){
+    
+}
+
+/*PANTALLA DE LAPTOP*/
+@media (max-width: 1199px) and (min-width:992px){
+ 
+}
+
+/*PANTALLA DE TABLETA*/
+@media  (max-width: 991px) and (min-width:768px){
+
+}
+
+/*PANTALLA SMALL XS*/
+
+@media  (max-width: 767px){
+
+    .formacion{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        position: relative;
+        top: 100px;
+        background: #EAF2FD;
+        width: 100%;
+        height: 1000px;
+    }
+    
+    #formacion__titulo{
+        position: relative;
+        top: 5px;
+    }
+    
+    .cajas{ 
+       
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       position: relative;
+       top: 10px;
+    }
+    
+    .caja{
+        width: 90%;
+        position: relative;
+        left: 10px;
+        font-size: 1rem;
+        height: 300px;
+        margin: 5px;
+        background: #FFFFFF;
+        box-sizing: border-box;
+    }
+    
+    .c1{
+        background: #FFFFFF;
+        
+    }
+    
+    .formacion__escuela{
+        position: relative;
+        top: 240px;
+    }
+    
+    .imagen--ittla{
+        background: url(../../imagen/tec.png) center no-repeat;
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        position: relative;
+        top: 20%;
+    }
+    
+    .imagen--one{
+        background: url(../../imagen/one.jpg) center no-repeat;
+        background-size: cover;
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        position: relative;
+        top: 20%;
+    }
+    .imagen--goo{
+        background: url(../../imagen/gle.png) center no-repeat;
+        background-size: cover;
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        position: relative;
+        top: 20%;
+    }
+}
+
+
+
+
+
+   
+   
+   
+  
+
+    

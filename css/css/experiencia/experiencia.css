@@ -1,0 +1,153 @@
+.experiencia{
+    position: relative;
+    top: 480px;
+   
+    height: 400px;
+}
+
+#experiencia__titulo{
+    position: relative;
+    top: 10px;
+    text-align: center;
+    
+}
+
+.cajas__experiencia{
+    position: relative;
+    padding: 0 40px 0 40px;
+    display: flex;
+    justify-content: space-around;
+   
+    top: 50px;
+}
+
+.a1{
+    width: 700px;
+    background: url(../../imagen/m.png)center no-repeat;
+    background-size: contain;
+}
+.a2{
+    width:  500px;
+
+}
+#titulo__exp{
+    position: relative;
+    top: 90px;
+    left: 40px;
+}
+
+.btnexp{
+    background: #F5F5F5;
+    color: #2A7AE4;
+    border: solid #2A7AE4;
+    position: relative;
+    display: inline-block;
+    left: 40px;
+    height: 50px;
+    width: 100px;
+    
+    top: 110px;
+}
+.b2{
+    background: #F5F5F5;
+    color: #ffffff;
+    background-color:  #2A7AE4;
+    position: relative;
+    display: inline-block;
+    left: 50px;
+    height: 50px;
+    width: 100px;
+    
+    top: 110px;
+
+}
+
+/*PANTALLA DE ESCRITORIO*/
+@media (min-width:1200px){
+    
+}
+
+/*PANTALLA DE LAPTOP*/
+@media (max-width: 1199px) and (min-width:992px){
+ 
+}
+
+/*PANTALLA DE TABLETA*/
+@media  (max-width: 991px) and (min-width:768px){
+
+}
+
+/*PANTALLA SMALL XS*/
+
+@media (max-width: 767px){
+
+    .experiencia{
+        position: relative;
+        top: 100px;
+        height: 400px;
+    }
+    
+    #experiencia__titulo{
+        position: relative;
+        top: 10px;
+        text-align: center;
+    }
+    
+    .cajas__experiencia{
+        position: relative;
+        padding: 0 40px 0 40px;
+        display: flex;
+    
+        flex-wrap: wrap;
+        justify-content: space-between;
+        top: 50px;
+    }
+    
+    .a1{
+        position: relative;
+        bottom: 100px;
+        width: 100%;
+        background: url(../../imagen/m.png)center no-repeat;
+        background-size: contain;
+    }
+    .a2{
+        position: relative;
+        bottom: 250px;
+        width: 100%;
+        background-color: #00000000;
+    
+    }
+    #titulo__exp{
+        position: relative;
+        top: 90px;
+        left: 10px;
+    }
+    
+    .btnexp{
+        background: #F5F5F5;
+        color: #2A7AE4;
+        border: solid #2A7AE4;
+        position: relative;
+        display: inline-block;
+        left: 10px;
+        height: 50px;
+        width: 100px;
+        top: 110px;
+    }
+    .b2{
+        background: #F5F5F5;
+        color: #ffffff;
+        background-color:  #2A7AE4;
+        position: relative;
+        display: inline-block;
+        left: 20px;
+        height: 50px;
+        width: 100px;
+        
+        top: 110px;
+    
+    }
+    
+ 
+    
+}

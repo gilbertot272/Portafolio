@@ -1,0 +1,65 @@
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+    font-weight: 500; 
+    padding: 20px;
+}
+
+.menu__item{
+    display: inline;
+    position: relative;
+    
+    padding: 10px;
+    right: 100px;
+    font-weight: 500;
+}
+.menu__link{
+    text-decoration: none;
+    color: #464646;
+}
+
+.menu__titulo{
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    position: relative;
+    right: 670px;
+    padding: 10px;
+    font-weight: 500;
+}
+
+
+
+
+/*PANTALLA DE ESCRITORIO*/
+@media (min-width:1200px){
+    
+}
+
+/*PANTALLA DE LAPTOP*/
+@media (max-width: 1199px) and (min-width:992px){
+ 
+}
+
+/*PANTALLA DE TABLETA*/
+@media  (max-width: 991px) and (min-width:768px){
+
+}
+
+/*PANTALLA SMALL XS*/
+
+@media  (max-width: 767px){
+    
+    .menu{
+        display: none;
+        
+    }
+    
+  
+   
+
+}
+
+
+
